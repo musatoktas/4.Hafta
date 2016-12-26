@@ -8,14 +8,30 @@
 <body class="body">
 
 	<header class="main-header">
-			<img src="img/logo.jpg">
+			
 
 			<nav><ul>
-					<li><a href="#">Anasayfa</a></li>
-					<li><a href="#">Hakkimizda</a></li>
-					<li><a href="#">Etkinlikler</a></li>
-					<li><a href="#">Duyurular</a></li>
+					<li><div class="dropdown">
+						  <button class="dropbtn">Code Examples</button>
+							  <div class="dropdown-content">
+							    <a href="#">Python</a>
+							    <a href="#">Pascal</a>
+							    <a href="#">JavaScript</a>
+							  </div>
+					</div></li>
+					<li><div class="dropdown">
+						  <button class="dropbtn">Class Notes</button>
+							  <div class="dropdown-content">
+							    <a href="#">Calculus I</a>
+							    <a href="#">Lineer Algebra</a>
+							    <a href="#">Physics</a>
+							  </div>
+					</div></li>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Main Page</a></li>
 			</ul></nav>
+
+			<img src="img/logo.jpg">
 	</header>
 	<div class="main-content">
 		<div class="content">
@@ -23,7 +39,19 @@
 				<header>
 					<h2><a href="#" title="First Post">First Post</a></h2>
 				</header>
-				<footer>
+				<footer class="child-footer">
+					<p class="post-info">This post is written by Musa</p>
+				</footer>
+				<content>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+				</content>
+			</article>
+			<article class="bottom-content">
+				<header>
+					<h2><a href="#" title="Second Post">Second Post</a></h2>
+				</header>
+				<footer class="child-footer">
 					<p class="post-info">This post is written by Musa</p>
 				</footer>
 				<content>
@@ -42,7 +70,7 @@
 	<aside class="middle-sidebar">
 		<article>
 			<h2>Middle Sidebar</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 		</article>
 	</aside>
 	<aside class="bottom-sidebar">
@@ -52,7 +80,7 @@
 		</article>
 	</aside>
 	<footer class="main-footer">
-		<p>Copyright &copy; <a href="#" title="Bank Of WEEB Internet Services">BoWIS </a></p>
+		<p>Copyright 2017 &copy; <a href="https://www.bankofweeb.org" title="Bank Of WEEB Internet Services">BoWIS </a></p>
 	</footer>
 
 </body>
