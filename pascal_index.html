@@ -60,11 +60,11 @@
 		for i:=1 to n do
 			fak1:=fak1*i;
 				i:=1;
-					for i:=1 to r do
-						fak2:=fak2*i;
-							i:=1;
-								for i:=1 to n-r do
-									fak3:=fak3*i;
+		for i:=1 to r do
+			fak2:=fak2*i;
+				i:=1;
+		for i:=1 to n-r do
+			fak3:=fak3*i;
 			c:=fak1/(fak2*fak3);
 		writeln('C(',n,',',r,')=',c:5:1);
 		readln;
